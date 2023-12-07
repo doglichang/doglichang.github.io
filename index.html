@@ -57,12 +57,26 @@
             margin-top: 10px;
         }
     </style>
+    <script>
+        function updateCurrentTime() {
+            var now = new Date();
+            var currentTime = now.toLocaleString('zh-CN', { hour12: false, timeZone: 'Asia/Shanghai' });
+            document.getElementById('current-time').innerHTML = currentTime;
+        }
+        setInterval(updateCurrentTime, 1000);
+
+        window.onload = function() {
+            updateCurrentTime();
+        };
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Sentence By Qzone XiaoXing</h1>
         <p>本站点记录了小星为他的月亮留下的珍贵语句</p>
-
+       
+        <p id="current-time" style="text-align:center; font-weight:bold;">Current Time: Loading...</p>
+       
         <h2>All Sentence [3]</h2>
 
         <h3>Sentence one</h3>
@@ -76,6 +90,7 @@
 
         <footer>
             <p>Thanks for following.</p>
+            <p>Last Updated: 07/12/2023 19:06:27</p>
             <div class="author-info">
                 <p>source By Qzone XiaoXing</p>
                 <p>Uin 3400579591</p>
