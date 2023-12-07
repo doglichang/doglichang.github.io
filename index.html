@@ -56,6 +56,28 @@
         .author-info {
             margin-top: 10px;
         }
+        .center-text {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .info-box {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .author-box {
+            background-color: #e9eff5;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
     </style>
     <script>
         function updateCurrentTime() {
@@ -73,8 +95,7 @@
 <body>
     <div class="container">
         <h1>Sentence By Qzone XiaoXing</h1>
-        <p>本站点记录了小星为他的月亮留下的珍贵语句</p>
-       
+        <p class="center-text">本站点记录了小星为他的月亮留下的珍贵语句 将封存至永久.</p>       
         <p id="current-time" style="text-align:center; font-weight:bold;">Current Time: Loading...</p>
        
         <h2>All Sentence [3]</h2>
@@ -88,14 +109,15 @@
         <h3>Sentence three</h3>
         <blockquote><p>I just want you</p></blockquote>
 
-        <footer>
+        <div class="info-box">
             <p>Thanks for following.</p>
             <p>Last Updated: 07/12/2023 19:06:27</p>
-            <div class="author-info">
-                <p>source By Qzone XiaoXing</p>
-                <p>Uin 3400579591</p>
-            </div>
-        </footer>
+        </div>
+
+        <div class="author-box">
+            <p>source By Qzone XiaoXing</p>
+            <p>Uin 3400579591</p>
+        </div>
     </div>
 </body>
 </html>
