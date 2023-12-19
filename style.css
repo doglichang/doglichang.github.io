@@ -1,9 +1,9 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: linear-gradient(135deg, #e9eff5, #f8f8f8);
     color: #333;
 }
 
@@ -27,15 +27,21 @@ body {
 
 h1, h2, h3 {
     text-align: center;
-    color: #333;
+    color: #4a6785;
 }
 
 blockquote {
-    background: #e9ecef;
-    border-left: 4px solid #007bff;
-    margin: 20px 0;
-    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #6a8ba2;
+    margin: 1.5em 0;
+    padding: 0.5em 10px;
+}
+
+blockquote p {
+    display: inline;
     font-style: italic;
+    font-weight: bold;
+    color: #4a6785;
 }
 
 .info-box, .author-box {
