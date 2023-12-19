@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 
 .container {
     max-width: 800px;
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -23,8 +23,8 @@ body {
 
 .sentences .sentence {
     margin-bottom: 20px;
-    border-radius: 10px; /* 圆角样式 */
-    background: #f9f9f9; /* 可选的背景色 */
+    background: #f9f9f9;
+    border-radius: 10px;
 }
 
 h1, h2, h3 {
@@ -33,29 +33,33 @@ h1, h2, h3 {
 }
 
 blockquote {
-    background: #e9ecef;
-    border-left: 4px solid #007bff;
-    margin: 20px 0;
-    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #6a8ba2;
+    margin: 1.5em 0;
+    padding: 0.5em 10px;
     font-style: italic;
-    border-radius: 10px; /* 圆角样式 */
+    font-weight: bold;
+    color: #4a6785;
 }
 
 .info-box, .author-box {
     margin-top: 40px;
     padding: 20px;
     background-color: #e9eff5;
-    border-radius: 10px; /* 圆角样式 */
+    border-radius: 10px;
     text-align: center;
 }
 
-.mask {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px 10px;
+.view-uin-link {
+    color: inherit;
+    text-decoration: none;
     cursor: pointer;
-    margin-bottom: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.view-uin-link:hover {
+    text-decoration: underline;
 }
 
 #uin {
