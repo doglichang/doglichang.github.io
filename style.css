@@ -1,9 +1,9 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #e9eff5, #f8f8f8);
+    background: #f4f4f4;
     color: #333;
 }
 
@@ -23,32 +23,29 @@ body {
 
 .sentences .sentence {
     margin-bottom: 20px;
+    border-radius: 10px; /* 圆角样式 */
+    background: #f9f9f9; /* 可选的背景色 */
 }
 
 h1, h2, h3 {
     text-align: center;
-    color: #4a6785;
+    color: #333;
 }
 
 blockquote {
-    background: #f9f9f9;
-    border-left: 5px solid #6a8ba2;
-    margin: 1.5em 0;
-    padding: 0.5em 10px;
-}
-
-blockquote p {
-    display: inline;
+    background: #e9ecef;
+    border-left: 4px solid #007bff;
+    margin: 20px 0;
+    padding: 10px;
     font-style: italic;
-    font-weight: bold;
-    color: #4a6785;
+    border-radius: 10px; /* 圆角样式 */
 }
 
 .info-box, .author-box {
     margin-top: 40px;
     padding: 20px;
     background-color: #e9eff5;
-    border-radius: 10px;
+    border-radius: 10px; /* 圆角样式 */
     text-align: center;
 }
 
